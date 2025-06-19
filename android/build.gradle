@@ -34,7 +34,7 @@ apply plugin: 'com.android.library'
 android {
 
     namespace "com.feyzacelik.flutter_vision"
-    namespace 'com.vladih.computer_vision.flutter_vision'
+    
     compileSdkVersion 31
 
     compileOptions {
