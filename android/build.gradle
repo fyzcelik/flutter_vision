@@ -32,9 +32,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.vladih.computer_vision.flutter_vision"
 
-    namespace "com.feyzacelik.flutter_vision"
-    
     compileSdkVersion 31
 
     compileOptions {
